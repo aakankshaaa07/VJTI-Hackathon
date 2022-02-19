@@ -1,0 +1,119 @@
+* {
+  background-color: #2C3036;
+  font-family: 'Montserrat', sans-serif;
+  color: #D84E4B;
+}
+
+.logo_image {
+  width: 100px;
+  height: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form {
+  font-size: 5vw;
+  padding-left: 10px;
+}
+
+input[type=number] {
+  background-color: #2C3036;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid #949C9C;
+  width: 200px;
+  padding: 10px;
+  outline: none;
+}
+
+input[type=number]:focus {
+  border-bottom: 2px solid #D84E4B;
+}
+
+input[type=number]:active {
+  border-bottom: 2px solid #D84E4B;
+}
+
+input[type=number]:hover {
+  border-bottom: 2px solid #D84E4B;
+}
+
+input[type=submit] {
+  background-color: #D84E4B;
+  color: #2C3036;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  margin: 80px;
+  border-radius: 50%;
+  height: 50vw;
+  width: 50vw;
+  font-size: 5vw;
+}
+
+.text {
+  padding: 5px;
+  margin-bottom: 100px;
+}
+
+.navbar {
+  display: -ms-grid;
+  display: grid;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      grid-template-areas: "police contact sos location directory";
+  background-color: #2C3036;
+  color: #D84E4B;
+  font-size: 2vw;
+}
+
+#active {
+  color: #2C3036 !important;
+  background-color: #D84E4B !important;
+}
+
+i {
+  padding: none;
+  margin: none;
+}
+
+.police {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: police;
+}
+
+.contact {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: contact;
+}
+
+.sos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: sos;
+}
+
+.location {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: location;
+}
+
+.directory {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: directory;
+}
+/*# sourceMappingURL=styles.css.map */
