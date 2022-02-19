@@ -1,0 +1,77 @@
+body {
+  background-color: #2C3036;
+  font-family: 'Montserrat', sans-serif;
+  color: #D84E4B;
+}
+
+.logo_image {
+  width: 100px;
+  height: 100px;
+}
+
+input[type=submit] {
+  background-color: #D84E4B;
+  color: #2C3036;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  margin: 80px;
+  border-radius: 50%;
+  height: 50vw;
+  width: 50vw;
+  font-size: 5vw;
+}
+
+.text {
+  margin-bottom: 100px;
+  width: 90%;
+}
+
+.navbar {
+  display: -ms-grid;
+  display: grid;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "sos directory";
+  background-color: #2C3036;
+  color: #D84E4B;
+  font-size: 4vw;
+}
+
+.active {
+  color: #2C3036 !important;
+  background-color: #D84E4B !important;
+}
+
+a {
+  text-decoration: none;
+  color: #D84E4B;
+}
+
+a:hover {
+  color: #D84E4B;
+  text-decoration: underline;
+}
+
+i {
+  padding: none;
+  margin: none;
+}
+
+.sos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: sos;
+}
+
+.directory {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: directory;
+}
